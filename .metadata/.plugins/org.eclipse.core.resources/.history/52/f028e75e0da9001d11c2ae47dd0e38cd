@@ -1,0 +1,10 @@
+package com.alex.sitealceu.repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+@EnableJpaRepositories
+
+public interface IUserRepository extends JpaRepository <User, Integer> {
+
+}

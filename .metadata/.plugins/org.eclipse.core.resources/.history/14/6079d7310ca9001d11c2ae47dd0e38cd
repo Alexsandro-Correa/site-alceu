@@ -1,0 +1,13 @@
+package com.alex.sitealceu;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SiteAlceuApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SiteAlceuApplication.class, args);
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.alex.sitealceu.repository;
+
+public interface IUserRepository extends JpaRepositoy<User, Integer> {
+
+}
